@@ -1,0 +1,12 @@
+<div class="tip-container">
+    <p>Select Tip %</p>
+    <div class="tip-btn-container">
+        <app-btn text="5%" [value]="5/100" (btnVal)="handleEmit($event)"></app-btn>
+        <app-btn text="10%" [value]="10/100" (btnVal)="handleEmit($event)"></app-btn>
+        <app-btn text="15%" [value]="15/100" (btnVal)="handleEmit($event)"></app-btn>
+        <app-btn text="25%" [value]="25/100" (btnVal)="handleEmit($event)"></app-btn>
+        <app-btn text="50%" [value]="50/100" (btnVal)="handleEmit($event)"></app-btn>
+        
+        <input #tipInput (change)="handleTipInput(tipInput)" type="number" name="number" value="40">
+    </div>
+</div>

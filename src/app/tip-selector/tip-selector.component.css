@@ -1,0 +1,44 @@
+.tip-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tip-btn-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.tip{
+    background-color: var(--primary);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tip:hover{
+    background-color: var(--active);
+    color: var(--primary);
+}
+
+.tip:active{
+    background-color: var(--primary);
+    color: white; 
+}
+
+.tip-btn-container input{
+    width: 90%;
+    border: 1px solid var(--green-border);
+    border-radius: 5px;
+    color: var(--primary);
+    text-align: end;
+    background-color: var(--bg);
+}
+
+.tip-btn-container input:focus{
+    outline: 1.5px solid var(--green-border);
+}

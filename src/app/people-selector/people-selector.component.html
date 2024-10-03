@@ -1,0 +1,25 @@
+<div class="people-selector-container">
+    <div class="txt">
+        <p>Number of people</p>
+        @if(pNum=="0" || pNum==""){
+            <p class="warning" >can't be zero</p>
+        }
+    </div> 
+    <div 
+    class="num-ipt" 
+    [class.border-danger]="pNum=='0'||pNum=='' " 
+    [class.border-valid]="pNum!='0' "
+    [class.outline-danger]="focus && (pNum=='0' || pNum=='')"
+    [class.outline-valid]="focus && pNum!='0'"
+    >
+        <i class="fa-solid fa-user fa-xs ico"></i>
+        <input #ipt 
+        type="number" 
+        name="number" 
+        value={{pNum}} 
+        (input)="handlePNum(ipt)" 
+        (focus)="handleFocus()"
+        (blur)="handleBlur()"
+        >
+    </div>
+</div>

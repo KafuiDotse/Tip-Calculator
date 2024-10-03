@@ -1,0 +1,46 @@
+.bg{
+    height: 100vh;
+    background-color: rgba(197, 228, 231, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bg p{
+    font-size:1.1rem;
+    color: var(--primary);
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+    width: 37vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.right{
+    background-color: var(--primary);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

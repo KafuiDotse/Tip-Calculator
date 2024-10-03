@@ -1,0 +1,13 @@
+<div class="bill-container">
+    <p>Bill</p>
+    <div [class.focused]="focus" class="ipt">
+        <p>$</p>
+        <input #bill (focus)="handleFocus()"
+         (blur)="handleBlur()"  
+         type="number" 
+         name="number" 
+         value={{amount}}
+         (input)="getVal(bill)"
+         >
+    </div>
+</div>

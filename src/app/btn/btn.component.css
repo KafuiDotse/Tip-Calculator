@@ -1,0 +1,38 @@
+.tip-primary{
+    background-color: var(--primary);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tip-secondary{
+    background-color: var(--active);
+    color: var(--primary);
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tip-primary:hover{
+    background-color: var(--active);
+    color: var(--primary);
+}
+
+.tip-primary:active{
+    background-color: var(--primary);
+    color: white; 
+}
+
+.tip-secondary:active{
+    background-color: rgb(108, 180, 175);
+    color: white; 
+}
+
+.tip-primary:focus{
+    background-color: var(--active);
+}

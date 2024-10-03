@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+}
+
+:root{
+    --green-border: rgb(26, 130, 140);
+    --primary:rgba(2, 72, 73, 1);
+    --active:rgba(163, 231, 226, 1);
+    --danger:rgb(211, 65, 17);
+    --bg:  rgba(197, 228, 231, 0.18);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p{
+    cursor:default;
+}
+
+small{
+    cursor: default;
+}

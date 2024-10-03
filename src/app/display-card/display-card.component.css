@@ -1,0 +1,23 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label{
+    color: white;
+    font-size: 1.001rem;
+}
+
+.label small{
+    color: rgba(173, 188, 187, 1);
+}
+
+.amount{
+    color: rgba(57, 189, 172, 1);
+    font-size: 2rem;
+}
+
+.amount span{
+    font-size: 1.6rem;
+}

@@ -1,0 +1,61 @@
+.people-selector-container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.warning{
+    color: var(--danger);
+}
+
+.num-ipt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--bg);
+}
+
+.num-ipt input{
+    border: 0px;
+    background: transparent;
+    text-align: end;
+    color: var(--primary);
+    width: 100%;
+}
+
+.ico{
+    color: rgba(173, 188, 187, 1);
+}
+
+.num-ipt input:focus{
+    outline: 0px;
+}
+
+.border-valid{
+    border: 1px solid var(--green-border);
+}
+
+.border-danger{
+    border: 1px solid var(--danger);
+}
+
+.outline-valid{
+    outline: 2px solid var(--green-border);
+}
+
+.outline-danger{
+    outline: 1.5px solid var(--danger);
+}

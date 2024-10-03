@@ -1,0 +1,30 @@
+.bill-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ipt{
+    display: flex;
+    gap: 5px;
+    border: 1px solid var(--green-border);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: var(--bg);
+}
+
+.ipt input{
+    border: 0px;
+    background: transparent;
+    color: var(--primary);
+    text-align: end;
+    width: 100%;
+}
+
+.ipt input:focus{
+    outline: 0px;
+}
+
+.focused{
+    outline: 1.5px solid var(--green-border);
+}
